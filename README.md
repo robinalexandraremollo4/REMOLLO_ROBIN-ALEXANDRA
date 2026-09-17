@@ -64,8 +64,7 @@ print('Number of Rows: ',len(VisComm))
 
 Instructions:
 
-Create a second DataFrame named `VisFemale` containing students whose `Hometown` is `Visayas` and
-whose `Gender` is `Female`. Retain only:
+Create a second DataFrame named `VisFemale` containing students whose `Hometown` is `Visayas` and whose `Gender` is `Female`. Retain only:
 
 ``` python
 Name, Track, GEAS, Electronics, Average`
@@ -91,7 +90,7 @@ VisFemale
 VisFemale.loc[(VisFemale['Average']>=60)]
 ```
 
-## C. Categoty-Average Visualization
+## C. Category-Average Visualization
 
 Instructions:
 
